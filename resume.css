@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+}
+#body-header{
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(main/image/top-view-tea-cup-laptop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+    font-size: xx-large;
+    margin: 0px;
+
+}
+.text-center{
+    text-align: center;
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+
+}
+.horizontal-list li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.horizontal-list li a:hover{
+    color: orangered;
+    border-bottom: 1px solid white;
+}
+#name-container{
+    margin-top: 10vh;
+}
+#my-name{
+ font-size: 5rem;
+ letter-spacing: 0.1rem;
+ color: black;
+ font-weight: bold;
+ margin-bottom: 0.5rem;
+ display: inline-block;
+ border-bottom: 4px solid #ec1839;
+ border-right: 4px solid #ec1839;
+}
+#my-name:hover{
+    color: orangered;
+}
+.social{
+    height: 60px;
+    width: 60px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.social-icons{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    transform: translate(-50%);
+    line-height: 0px;
+    margin-left: 30px;
+    margin-top: -25vh;
+}
+.social:hover{
+    box-shadow: 4px 6px 15px 15px brown;
+
+}
+#my-image{
+    height: 18rem;
+    width: 18rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 8px solid black;
+    border-style: groove;
+}
+
+#about{
+    position: relative;
+}
+#about-heading{
+    padding-top: 20px;
+    box-shadow: inset;
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    font-family: cursive;
+}
+

@@ -1,0 +1,71 @@
+#contact-form {
+    min-height: 100vh;
+    background-image: url(image/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container{
+    background: rgba(20,29,40,0.5);
+    width: 40%;
+    color: #fff;
+    border-radius: 20px;
+    border: 3px solid  rgba(20,29,40,0.9);
+}
+.head{
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline
+}
+.name-wrapper
+{
+ text-align: center;
+ margin-top: -5px;
+}
+.email-wrapper{
+    text-align: center;
+    margin-top: 20px;
+}
+.container label{
+    font-size: 1.5rem;
+}
+.container button{
+    font-size: 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 2rem; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.message{
+    text-align: center;
+    margin-top: 25px;
+}
+.aside-container{
+    background: rgba(20,29,40,0.5);
+    width: 40%;
+    color: #fff;
+    border-radius: 20px;
+    padding-right: 20px;
+    margin-left: 40px;
+    border: 3px solid  rgba(20,29,40,0.9);
+}
+.a-email{
+    font-size: 28px;
+    text-align: center;
+}
+.a-phone{
+    font-size: 28px;
+    text-align: center;
+}
+.a-address{
+    font-size: 28px;
+    text-align: center;
+}
+.a-pin{
+    font-size: 28px;
+    text-align: center;
+}

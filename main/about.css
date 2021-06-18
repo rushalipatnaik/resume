@@ -1,0 +1,24 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/lum3n--RBuQ2PK_L8-unsplash.jpg);
+    background-size: contain;
+    background-position: center;
+    background-size: cover;
+    padding-left: 3%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+#about-heading{
+    font-family: cursive;
+    font-weight: bold;
+    color: black;
+    border: 3px dashed black;
+    display: inline-block;
+    margin-top: 50px;
+}
+#about-p{
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: -7px;
+}
